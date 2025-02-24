@@ -1,0 +1,16 @@
+CSS Flex:
+*********
+1.moving of a element with respect to the main axis is called css flex .
+2.css flex is one-dimensional.
+3.By default css flex is responsive.
+4.to work with flex parent and child relationship is mandatory.
+
+CSS Flex Properties:
+********************
+
+1.display:flex it is used to convert block level elements to the inline element
+
+2.gap:it is used to give space b/w element
+ex:-gap:20px;
+
+3.justify - content:flex-start/flex-end/center/space
