@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            height: 100vh;
+            gap: 20px;
+            grid-template-columns: 20% 40% 40%;
+            grid-template-rows: 20% 30% 30% 20%;
+
+        }
+        .header{
+            display: flex;
+            grid-column: 1/4;
+            grid-row: 1/2;
+            align-items: center;
+            justify-content: center;
+
+            background-color: aqua;
+
+        }
+        .sidebar{
+            display: flex;
+            grid-column: 1/2;
+            grid-row: 2/4;
+            align-items: center;
+            justify-content: center;
+
+            background-color: aqua;
+
+
+        }
+        .content1{
+            display: flex;
+            grid-column: 2/4;
+            grid-row: 2/3;
+            align-items: center;
+            justify-content: center;
+
+            background-color: aqua;
+
+        }
+        .content2{
+            display: flex;
+            grid-column: 2/3;
+            grid-row: 3/4;
+            align-items: center;
+            justify-content: center;
+
+            background-color: aqua;
+
+        }
+        .content3{
+            display: flex;
+            grid-column: 3/4;
+            grid-row: 3/4;
+            align-items: center;
+            justify-content: center;
+
+            background-color: aqua;
+
+        }
+        .footer{
+            display: flex;
+            grid-column: 1/4;
+            grid-row: 4/5;
+            align-items: center;
+            justify-content: center;
+
+            background-color: aqua;
+
+        }
+    </style>
+</head>
+<body>
+   <section class="parent">
+   <section class="header">Header</section>
+   <section class="sidebar">Sidebar</section>
+   <section class="content1">Content1</section>
+   <section class="content2">Content2</section>
+   <section class="content3">Content3</section>
+
+   <section class="footer">Footer</section>
+</section>
+</body>
+</html>

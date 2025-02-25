@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        display: grid;
+        height: 100vh;
+        gap: 20px;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 20% 40% 20% 20%;
+      }
+      .header {
+        background-color: rgb(211, 14, 14);
+        display: flex;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav {
+        background-color: rgb(8, 209, 240);
+        display: flex;
+        grid-column: 1/2;
+        grid-row: 2/4;
+        justify-content: center;
+        align-items: center;
+      }
+      .article {
+        background-color: orange;
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        justify-content: center;
+        align-items: center;
+      }
+      .ads {
+        background-color: rgb(28, 124, 226);
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer {
+        background-color: rgb(194, 13, 116);
+        display: flex;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="parent">
+      <section class="header">Header</section>
+      <section class="nav">Nav</section>
+      <section class="article">Article</section>
+      <section class="ads">Ads</section>
+      <section class="footer">Footer</section>
+    </section>
+  </body>
+</html>
